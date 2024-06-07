@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet - Gibello Grégoire</title>
+    <link rel="stylesheet" href="stylesPageProjet.css">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            Gibello Grégoire
+        </div>
+        <div>
+            <img id="imgTitre" src="../imgTitre.PNG" alt="Titre">
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="../index.html">Accueil</a>
+            <a href="../cv.html">CV</a>
+            <a href="../projets.html" class="active">Projets</a>
+            <a href="../contact.html">Contact</a>
+        </div>
+    </nav>
+    
+    <section id="project-detail" class="project-detail-section">
+        <div class="container">
+            <a href="../projets.html" class="button-back"><span class="arrow-left"></span> Retour</a>
+            <h1>Naufrage du Titanic</h1>
+            <img src="imgProjet4.png" alt="imageProjet" class="project-image">
+            <div class="project-content">
+                <h2>Contexte :</h2>
+                <p>Le but de ce projet était de déterminer statistiquement quel groupe de personnes (adulte/enfant, homme/femme, fortuné/pauvre…) avait le plus de chances de survie lors du terrible naufrage du Titanic. Il fut réalisé en duo dans le cadre de mes études, sur plusieurs séances, durant lesquelles nous avons dû concevoir une base de données relationnelle à partir d’un cahier des charges puis y insérer des données et en extraire pour produire des statistiques.   
+                </p>
+                <h2>Réalisation :</h2>
+                <p>Pour cela, nous avons commencé en nous renseignant sur le naufrage afin de déterminer quels seraient les critères, sociaux ou autres, qui pourraient être intéressants à étudier. Une fois cette étape passée, je me suis chargé de produire un schéma entité-association détaillé, afin que mon coéquipier puisse créer directement les différentes tables sur PostgreSQL. 
+                    <br>
+                    Ces tables furent remplies par des données fournies par nos professeurs afin que nous passions à l'étape d’analyse. Nous devions d'abord déterminer les axes d’études, ce que nous fîmes en se basant sur nos travaux préliminaires. Ensuite, je me suis chargé de l’écriture de plusieurs requêtes qui ont, par exemple, mis en évidence un taux de survie plus élevé chez les femmes et les enfants. 
+                </p>
+                <h2>Pour conclure :</h2>
+                <p>
+                    C’est au cours de ce projet que j’ai pu mettre en pratique, en conditions réelles, mes connaissances du langage SQL, mais aussi de conception de bases de données, acquises durant ma formation. Si cela vous intéresse voici le court rapport que nous avion rendu, ainsi que le lien vers le Repository de notre projet qui contient des rapports détaillants chaque étape : 
+                    <br> - <a href=".\DataProjets\bilan_titanic_SQL.pdf" download="bilan_titanic_SQL.pdf">Télécharger le rapport</a>
+                    <br> - <a href="https://github.com/hugo-brb/SAE1.04" target="_blank">Repository Gitub</a>
+                </p>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>
