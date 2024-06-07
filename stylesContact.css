@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    background-color: #2b3a4d;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#imgTitre {
+    width: 180px;
+    height: auto;
+    border-radius: 8px; /* Arrondir les bords de l'image */
+}
+
+.navbar {
+    background-color: #34495e;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 100px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.nav-links a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.contact-section {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.contact-section h1 {
+    font-size: 32px;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #2b3a4d;
+    line-height: 1.6;
+}
+
+.contact-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#imgContact {
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    padding: 8px 16px; /* Réduire la taille des boutons */
+    font-size: 14px; /* Réduire la taille du texte */
+    color: #fff;
+    background-color: #2980b9;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 130px; /* Réduire la largeur des boutons */
+    height: 40px; /* Réduire la hauteur des boutons */
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #3498db;
+    transform: scale(1.05);
+}
+
+.button-icon {
+    border-radius: 8px;
+    width: 30px; /* Augmenter la taille des icônes */
+    height: 30px;
+    margin:10px;
+    margin-right: 15px; /* Réduire l'espace entre l'icône et le texte */
+}

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    background-color: #2b3a4d;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+#imgTitre {
+    width: 180px; 
+    height: auto;
+}
+
+.navbar {
+    background-color: #34495e;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px;
+    transition: background-color 0.3s, color 0.3s;
+    min-width: 100px;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.nav-links a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+.cv-section {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cv-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cv-section h1 {
+    font-size: 32px;
+    color: #34495e;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cv-section h2 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.cv-section p {
+    font-size: 16px;
+    color: #2b3a4d;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.cv-section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.cv-section ul li {
+    margin-bottom: 5px;
+}
